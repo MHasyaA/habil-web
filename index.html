@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Habil As-Sidik | 3D Drafter & Process Engineer</title>
+  <meta name="description"
+    content="Portfolio of Muhammad Habil As-Sidik, a 3D Drafter and Process Engineering enthusiast specializing in AutoCAD, SolidWorks, Visio, and Blender." />
+  <link rel="stylesheet" href="/src/css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="fixed w-full z-50 glass transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <div class="flex-shrink-0 flex items-center">
+          <span class="text-2xl font-bold text-white tracking-wider">MUHAMMAD HABIL AS-SIDIK<span
+              class="text-engineering-accent">.</span></span>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="#home" class="text-gray-300 hover:text-engineering-accent transition-colors">Home</a>
+          <a href="#about" class="text-gray-300 hover:text-engineering-accent transition-colors">About</a>
+          <a href="#experience" class="text-gray-300 hover:text-engineering-accent transition-colors">Experience</a>
+          <a href="#portfolio" class="text-gray-300 hover:text-engineering-accent transition-colors">Portfolio</a>
+          <a href="#contact"
+            class="px-6 py-2 rounded-full border border-engineering-accent text-engineering-accent hover:bg-engineering-accent hover:text-engineering-dark transition-all duration-300 shadow-[0_0_15px_rgba(0,229,255,0.3)]">Contact
+            Me</a>
+        </div>
+        <!-- Mobile menu button -->
+        <div class="md:hidden flex items-center">
+          <button id="mobile-menu-btn" class="text-gray-300 hover:text-white focus:outline-none">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-engineering-dark border-b border-white/10">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <a href="#home" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white">Home</a>
+        <a href="#about" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white">About</a>
+        <a href="#experience"
+          class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white">Experience</a>
+        <a href="#portfolio" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white">Portfolio</a>
+        <a href="#contact" class="block px-3 py-2 text-base font-medium text-engineering-accent">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+    <!-- Background Grid -->
+    <div class="absolute inset-0 z-0 opacity-20"
+      style="background-image: linear-gradient(#3A506B 1px, transparent 1px), linear-gradient(90deg, #3A506B 1px, transparent 1px); background-size: 40px 40px;">
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-12">
+        <div class="flex-1 text-center md:text-left fade-in" style="animation-delay: 0.2s;">
+          <p class="text-engineering-accent font-medium tracking-wide mb-2 uppercase">Welcome to my portfolio</p>
+          <h1 class="text-5xl md:text-7xl font-bold text-white mb-4 leading-tight">
+            Hi, I'm <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-engineering-accent to-blue-500 neon-text">Habil</span>
+          </h1>
+          <h2 class="text-2xl md:text-3xl text-gray-300 font-light mb-6">3D Drafter & Process Engineer</h2>
+          <p class="text-gray-400 text-lg mb-8 max-w-2xl leading-relaxed">
+            Industrial Engineering graduate specializing in 3D Modeling, Technical Drafting, and Facility Layout Design.
+            Transforming complex engineering concepts into precise visual realities.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <a href="#portfolio"
+              class="px-8 py-3 rounded-full bg-engineering-accent text-engineering-dark font-semibold hover:bg-white transition-colors duration-300 shadow-[0_0_20px_rgba(0,229,255,0.4)]">View
+              Work</a>
+            <a href="/docs/CV MUHAMMAD HABIL AS-SIDIK.pdf" target="_blank"
+              class="px-8 py-3 rounded-full border border-white/20 text-white hover:bg-white/10 transition-colors duration-300 flex items-center justify-center gap-2">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+              </svg>
+              Download CV
+            </a>
+          </div>
+        </div>
+        <div class="flex-1 flex justify-center md:justify-end fade-in" style="animation-delay: 0.4s;">
+          <div class="relative w-80 h-80 md:w-[28rem] md:h-[28rem]">
+            <!-- Decorative ring -->
+            <div
+              class="absolute inset-0 rounded-full border-2 border-engineering-accent/30 animate-[spin_10s_linear_infinite]">
+            </div>
+            <div
+              class="absolute inset-4 rounded-full border border-blue-500/30 animate-[spin_15s_linear_infinite_reverse]">
+            </div>
+            <div
+              class="absolute inset-0 bg-gradient-to-tr from-engineering-accent/20 to-transparent rounded-full blur-2xl">
+            </div>
+            <div class="absolute inset-4 rounded-full overflow-hidden border-4 border-engineering-dark shadow-2xl z-10">
+              <!-- Scale increased to show face to chest only -->
+              <img src="/assets/images/photo_profile.png" alt="Muhammad Habil As-Sidik"
+                class="w-full h-full object-cover object-[center_top] scale-[1.3] pt-6 grayscale hover:grayscale-0 transition-all duration-500" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-24 bg-engineering-darker relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16 fade-in">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">About <span class="text-engineering-accent">Me</span>
+        </h2>
+        <div class="h-1 w-20 bg-engineering-accent mx-auto rounded-full"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="card-glass p-8 fade-in">
+          <h3 class="text-2xl font-semibold text-white mb-4">Industrial Engineering Graduate</h3>
+          <p class="text-gray-400 leading-relaxed mb-6">
+            Graduated from Sultan Ageng Tirtayasa University (UNTIRTA) with a strong passion for manufacturing design
+            and production optimization. I combine technical engineering knowledge with practical drafting skills to
+            create efficient, accurate, and functional designs.
+          </p>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="flex items-center gap-3 text-gray-300">
+              <svg class="w-5 h-5 text-engineering-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              Production Planning
+            </div>
+            <div class="flex items-center gap-3 text-gray-300">
+              <svg class="w-5 h-5 text-engineering-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              Facility Layout
+            </div>
+            <div class="flex items-center gap-3 text-gray-300">
+              <svg class="w-5 h-5 text-engineering-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              Continuous Improvement
+            </div>
+            <div class="flex items-center gap-3 text-gray-300">
+              <svg class="w-5 h-5 text-engineering-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              3D Modeling
+            </div>
+          </div>
+        </div>
+
+        <div class="fade-in" style="animation-delay: 0.2s;">
+          <h3 class="text-2xl font-semibold text-white mb-6">Software Proficiency</h3>
+          <div class="space-y-6">
+            <!-- Skill Item -->
+            <div>
+              <div class="flex justify-between text-sm font-medium mb-1">
+                <span class="text-white">AutoCAD</span>
+                <span class="text-engineering-accent">90%</span>
+              </div>
+              <div class="w-full bg-white/10 rounded-full h-2">
+                <div class="bg-engineering-accent h-2 rounded-full shadow-[0_0_10px_rgba(0,229,255,0.5)]"
+                  style="width: 90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm font-medium mb-1">
+                <span class="text-white">SolidWorks</span>
+                <span class="text-engineering-accent">80%</span>
+              </div>
+              <div class="w-full bg-white/10 rounded-full h-2">
+                <div class="bg-engineering-accent h-2 rounded-full shadow-[0_0_10px_rgba(0,229,255,0.5)]"
+                  style="width: 80%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm font-medium mb-1">
+                <span class="text-white">Blender</span>
+                <span class="text-engineering-accent">75%</span>
+              </div>
+              <div class="w-full bg-white/10 rounded-full h-2">
+                <div class="bg-engineering-accent h-2 rounded-full shadow-[0_0_10px_rgba(0,229,255,0.5)]"
+                  style="width: 75%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm font-medium mb-1">
+                <span class="text-white">Microsoft Visio</span>
+                <span class="text-engineering-accent">85%</span>
+              </div>
+              <div class="w-full bg-white/10 rounded-full h-2">
+                <div class="bg-engineering-accent h-2 rounded-full shadow-[0_0_10px_rgba(0,229,255,0.5)]"
+                  style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Organizations -->
+  <section id="experience" class="py-24 bg-engineering-dark">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16 fade-in">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Experience & <span
+            class="text-engineering-accent">Organizations</span></h2>
+        <div class="h-1 w-20 bg-engineering-accent mx-auto rounded-full"></div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <!-- Work Experience -->
+        <div>
+          <h3 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+            <svg class="w-6 h-6 text-engineering-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+              </path>
+            </svg>
+            Work Experience
+          </h3>
+          <div class="relative border-l border-white/20 ml-3 space-y-10">
+            <!-- Item 1 -->
+            <div class="relative pl-8 fade-in">
+              <div
+                class="absolute left-[-5px] w-3 h-3 rounded-full bg-engineering-accent shadow-[0_0_10px_rgba(0,229,255,0.8)]">
+              </div>
+              <h4 class="text-xl font-bold text-white">Laboratory Assistant</h4>
+              <p class="text-engineering-accent">Production System Laboratory UNTIRTA</p>
+              <p class="text-sm text-gray-400 mb-3">June 2024 - Present</p>
+              <div class="card-glass p-5 text-gray-400 text-sm">
+                <ul class="list-disc pl-5 space-y-1">
+                  <li>Monitored 350 students carrying out practical activities according to SOP.</li>
+                  <li>Designed and implemented technical drawing, manufacturing process, and facility layout practicums.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="relative pl-8 fade-in">
+              <div class="absolute left-[-5px] w-3 h-3 rounded-full bg-white/50 border-2 border-engineering-dark"></div>
+              <h4 class="text-xl font-bold text-white">Legal Officer Intern</h4>
+              <p class="text-engineering-accent">PT Krakatau Jasa Industri (KJI)</p>
+              <p class="text-sm text-gray-400 mb-3">Apr 2026 - Present</p>
+              <div class="card-glass p-5 text-gray-400 text-sm">
+                <ul class="list-disc pl-5 space-y-1">
+                  <li>Managed and recapped data for more than 250 outsourcing employees.</li>
+                  <li>Assisted administration processes, recruitment support, documentation, and legal administration.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="relative pl-8 fade-in">
+              <div class="absolute left-[-5px] w-3 h-3 rounded-full bg-white/50 border-2 border-engineering-dark"></div>
+              <h4 class="text-xl font-bold text-white">Workforce Consultant Project</h4>
+              <p class="text-engineering-accent">PT Krakatau Sarana Properti (KSP)</p>
+              <p class="text-sm text-gray-400 mb-3">Dec 2025 - Jan 2026</p>
+              <div class="card-glass p-5 text-gray-400 text-sm">
+                <ul class="list-disc pl-5 space-y-1">
+                  <li>Conducted work sampling analysis across 10 divisions to support workforce productivity evaluation.
+                  </li>
+                  <li>Measured worker utilization and determined productive time percentage.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="relative pl-8 fade-in">
+              <div class="absolute left-[-5px] w-3 h-3 rounded-full bg-white/50 border-2 border-engineering-dark"></div>
+              <h4 class="text-xl font-bold text-white">Training Coordinator (Project Based)</h4>
+              <p class="text-engineering-accent">PT. Integrasi Produktivitas Indonesia</p>
+              <p class="text-sm text-gray-400 mb-3">Jan 2025 - Feb 2025</p>
+              <div class="card-glass p-5 text-gray-400 text-sm">
+                <ul class="list-disc pl-5 space-y-1">
+                  <li>Planned, implemented, and evaluated more than 5 training programs.</li>
+                  <li>Prepared training materials and led training activities.</li>
+                  <li>Carried out research and development.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Organizations -->
+        <div>
+          <h3 class="text-2xl font-bold text-white mb-8 flex items-center gap-3 mt-12 lg:mt-0">
+            <svg class="w-6 h-6 text-engineering-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+              </path>
+            </svg>
+            Organizations
+          </h3>
+          <div class="relative border-l border-white/20 ml-3 space-y-10">
+            <!-- Org 1 -->
+            <div class="relative pl-8 fade-in">
+              <div
+                class="absolute left-[-5px] w-3 h-3 rounded-full bg-engineering-accent shadow-[0_0_10px_rgba(0,229,255,0.8)]">
+              </div>
+              <h4 class="text-xl font-bold text-white">Head of Internal Training Division</h4>
+              <p class="text-engineering-accent">Production System Laboratory UNTIRTA</p>
+              <p class="text-sm text-gray-400 mb-3">Aug 2025 - Present</p>
+              <div class="card-glass p-5 text-gray-400 text-sm">
+                <ul class="list-disc pl-5 space-y-1">
+                  <li>Led technical skill training and mentoring.</li>
+                  <li>Fostered leadership, communication, and teamwork.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Org 2 -->
+            <div class="relative pl-8 fade-in">
+              <div class="absolute left-[-5px] w-3 h-3 rounded-full bg-white/50 border-2 border-engineering-dark"></div>
+              <h4 class="text-xl font-bold text-white">Library Inventory & Maintenance</h4>
+              <p class="text-engineering-accent">Production System Laboratory UNTIRTA</p>
+              <p class="text-sm text-gray-400 mb-3">June 2024 - Aug 2025</p>
+              <div class="card-glass p-5 text-gray-400 text-sm">
+                <ul class="list-disc pl-5 space-y-1">
+                  <li>Responsible for the management of library inventory and data collection.</li>
+                  <li>Operated and maintained machinery and other supporting assets.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Org 3 -->
+            <div class="relative pl-8 fade-in">
+              <div class="absolute left-[-5px] w-3 h-3 rounded-full bg-white/50 border-2 border-engineering-dark"></div>
+              <h4 class="text-xl font-bold text-white">Dept. of Inventory and Social Affairs</h4>
+              <p class="text-engineering-accent">HMTI UNTIRTA</p>
+              <p class="text-sm text-gray-400 mb-3">Apr 2023 - Dec 2024</p>
+              <div class="card-glass p-5 text-gray-400 text-sm">
+                <ul class="list-disc pl-5 space-y-1">
+                  <li>Responsible for asset and inventory management.</li>
+                  <li>Implemented social activities of the association.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-24 bg-engineering-darker min-h-screen">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 fade-in">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Engineering <span
+            class="text-engineering-accent">Portfolio</span></h2>
+        <div class="h-1 w-20 bg-engineering-accent mx-auto rounded-full mb-8"></div>
+
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap justify-center gap-4 mb-12" id="portfolio-filters">
+          <button
+            class="filter-btn active px-6 py-2 rounded-full border border-engineering-accent bg-engineering-accent text-engineering-dark font-medium transition-all"
+            data-filter="all">All Projects</button>
+          <button
+            class="filter-btn px-6 py-2 rounded-full border border-white/20 text-white hover:border-engineering-accent hover:text-engineering-accent transition-all"
+            data-filter="autocad">AutoCAD</button>
+          <button
+            class="filter-btn px-6 py-2 rounded-full border border-white/20 text-white hover:border-engineering-accent hover:text-engineering-accent transition-all"
+            data-filter="solidworks">SolidWorks</button>
+          <button
+            class="filter-btn px-6 py-2 rounded-full border border-white/20 text-white hover:border-engineering-accent hover:text-engineering-accent transition-all"
+            data-filter="visio">Visio</button>
+          <button
+            class="filter-btn px-6 py-2 rounded-full border border-white/20 text-white hover:border-engineering-accent hover:text-engineering-accent transition-all"
+            data-filter="blender">Blender</button>
+        </div>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-grid">
+        <!-- Portfolio Items will be injected via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-24 bg-engineering-dark relative border-t border-white/10">
+    <div
+      class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgc3Ryb2tlPSIjM0E1MDZCIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPjxwYXRoIGQ9Ik0wIDBoNjB2NjBIMHoiLz48cGF0aCBkPSJNMCAzMGg2ME0zMCAwdjYwIi8+PC9nPjwvc3ZnPg==')] opacity-[0.03]">
+    </div>
+
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+      <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Let's Build Something <span
+          class="text-engineering-accent">Precise</span></h2>
+      <p class="text-gray-400 mb-12 text-lg">Looking for an accurate, detailed, and efficient design contribution to
+        your company? Feel free to reach out.</p>
+
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-6 mb-16">
+        <a href="mailto:sidikhabil5@gmail.com"
+          class="flex items-center gap-3 px-8 py-4 rounded-xl bg-white/5 border border-white/10 hover:border-engineering-accent hover:bg-white/10 transition-all w-full sm:w-auto">
+          <svg class="w-6 h-6 text-engineering-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+            </path>
+          </svg>
+          <span class="text-white font-medium">Email Me</span>
+        </a>
+        <!-- Removed LinkedIn per request -->
+        <a href="https://wa.me/628998651380" target="_blank"
+          class="flex items-center gap-3 px-8 py-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#25D366] hover:bg-white/10 transition-all w-full sm:w-auto">
+          <svg class="w-6 h-6 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.52-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+          </svg>
+          <span class="text-white font-medium">WhatsApp</span>
+        </a>
+      </div>
+
+      <p class="text-gray-500 text-sm">© 2026 Muhammad Habil As-Sidik. All rights reserved.</p>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal with Zoom/Pan Support -->
+  <div id="lightbox"
+    class="fixed inset-0 z-[100] bg-black/95 backdrop-blur-md hidden flex-col items-center justify-center opacity-0 transition-opacity duration-300">
+    <button id="lightbox-close"
+      class="absolute top-6 right-6 text-white hover:text-engineering-accent focus:outline-none z-[101] bg-black/50 p-2 rounded-full backdrop-blur-md transition-colors">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+
+    <div
+      class="absolute top-8 left-1/2 -translate-x-1/2 text-gray-400 text-sm bg-black/50 px-4 py-2 rounded-full backdrop-blur-md z-[101] flex items-center gap-2 pointer-events-none">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
+      </svg>
+      Hover to pan image
+    </div>
+
+    <div class="relative w-full h-[85vh] flex items-center justify-center p-4 md:p-12 overflow-hidden"
+      id="lightbox-container">
+      <!-- Interactive wrapper -->
+      <div id="lightbox-img-wrapper"
+        class="w-full h-full rounded-xl shadow-[0_0_50px_rgba(0,229,255,0.15)] border border-white/10 overflow-hidden relative cursor-crosshair flex items-center justify-center bg-black/50">
+        <img id="lightbox-img" src="" alt="Portfolio Fullscreen"
+          class="max-w-full max-h-full object-contain transition-transform duration-200"
+          style="transform-origin: center center;" />
+      </div>
+    </div>
+
+    <div id="lightbox-caption"
+      class="absolute bottom-8 left-1/2 -translate-x-1/2 bg-black/80 text-white text-xl font-medium tracking-wide px-8 py-3 rounded-full border border-white/10 shadow-lg z-[101]">
+    </div>
+  </div>
+
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+
+</html>
